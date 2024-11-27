@@ -11,7 +11,7 @@ const {
 router.get('/',getAllAreaHandler);
 router.get('/:id',getAreaHandler);
 router.post('/',createAreaHandler);
-// router.delete('/:id',deleteEstadoMCHandler);
+//router.delete('/:id',deleteEstadoMCHandler);
 router.patch('/:id',updateAreaHandler);
 
 module.exports = router;

@@ -98,7 +98,7 @@ const getAreaHandler = async (req, res) => {
     }
 
     try {
-        const newArea = await getAreaMC(id);
+        const newArea = await getAreaController(id);
         if (!newArea) {
             return res.status(404).json({ message: "newArea MC no encontrado" });
         }
