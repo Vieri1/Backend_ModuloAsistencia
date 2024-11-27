@@ -1,7 +1,7 @@
 const { Router } = require("express");
 const router = Router();
 
-const area = require('./areaRoutere');
+const area = require('./areaRouter');
 
 
 
